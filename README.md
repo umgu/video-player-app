@@ -31,3 +31,7 @@ This project follows a modular structure to effectively manage different modules
     * Centralizing styling in one file promotes consistency throughout the application.
 
 **Note**: This project has only one module.
+
+# Lighthouse Performance
+![light-house-performance](https://github.com/umgu/video-player-app/assets/96438212/ea27f814-6164-44cb-8d3b-cc4472e743ec)
+
