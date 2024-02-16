@@ -1,0 +1,29 @@
+html * {
+  margin: 0;
+  padding: 0;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.custom-scrollbar {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.text-overflow-wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  max-height: 2.5em;
+}
+
+.text-muted {
+  color: #6c757d !important;
+}
