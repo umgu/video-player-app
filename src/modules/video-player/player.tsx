@@ -15,7 +15,7 @@ export default function Player() {
   const playerRef = useRef<ReactPlayer>(null);
 
   useEffect(() => {
-    if (Object.keys(currentPlayingVideo).length && currentVideo) {
+    if (Object.keys(currentPlayingVideo).length && !currentVideo) {
       setCurrentVideo(currentPlayingVideo);
     } else {
       const currentTime = playerRef?.current?.getCurrentTime();
