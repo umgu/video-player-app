@@ -13,3 +13,21 @@ To get a local copy of this project up and running, follow these simple steps:
 
 You can also view the hosted version of this application on GitHub Pages.<br>
 **https://umgu.github.io/video-player-app**
+
+# Project Structure Overview
+This project follows a modular structure to effectively manage different modules within a single application. Here's a brief overview:
+
+### Modules Folder
+    * Contains separate folders for each module of the application.
+    * Each module folder encapsulates all related components, styles, and typings.
+    * Following this approach ensures better organization and maintainability.
+
+### Common Components Folder
+    * Houses reusable components that can be shared across multiple modules.
+    * Encourages code reusability and minimizes duplication.
+
+### Global Styling File:
+    * Manages global-level styles, including utility classes and common styling rules.
+    * Centralizing styling in one file promotes consistency throughout the application.
+
+**Note**: This project has only one module.
